@@ -1,0 +1,23 @@
+.search-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.category-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tab:hover {
+  background-color: #e0e0e0;
+}

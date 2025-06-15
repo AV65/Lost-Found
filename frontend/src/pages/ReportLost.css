@@ -1,0 +1,46 @@
+/* .report-lost-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+} */
+.reporthead{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.report-lost-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+}
+
+.report-lost-form input,
+.report-lost-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.report-lost-form button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
